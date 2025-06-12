@@ -4,28 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Samuel Stone Caballero</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="CSS/index.css">
 </head>
 <body>
-    
+    <video id="Video_fondo" autoplay loop muted>
+        <source src="IMG/Fondo.mp4" type="video/mp4" >
+    </video>
+
     <header>
         <a href="index.html" target="_self">Inicio</a>
-        <div>Proyectos</div>
+        <a href="#" target="_self">Proyectos</a>
         <a href="Sobre-mi.html" target="_self">Sobre mi</a>
     </header>
 
     <main>
 
-        <img src="IMG/Foto-perfil.png" alter="Foto de perfil">
+        <div class="Foto-perfil">
+            <img id="Foto1" src="IMG/Foto-perfil.png" alter="Foto de perfil">
+        </div>
 
         <h1>¡Hola! Soy Samuel</h1>
 
-        <a download="Samuel_Stone_Caballero_CV" href="IMG/CV.pdf">Descarga PDF</a>
+        <a id="CV" download="Samuel_Stone_Caballero_CV" href="IMG/CV.pdf">Descarga CV</a>
 
 
         <section class="Habilidades">
             
-            <article style="background-color: black;">
+            <article>
                 <h2>Habilidades</h2>
 
                 <img src="IMG/icons8-github-128.png" alter="Logo de Git Hub">
@@ -94,7 +99,7 @@
 
     </main>
 
-    <footer style="background-color: black;">
+    <footer>
 
         <a href="https://github.com/ELROKA02" title="Enlace a Git Hub" target="_blank"><img src="IMG/icons8-github-128.png" alter="Logo de Git Hub"></a>
 

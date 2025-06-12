@@ -1,0 +1,90 @@
+:root {
+    --color-oscuro: #036280;
+    --color-medio: #378BA4;
+    --color-claro: #81BECE;
+    --color-enlace: #E8EDE7;
+}
+
+* {
+    color: white;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+#Video_fondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+header {
+   /*   NO es completamente responsive
+    min-width: 1000px;
+    */
+
+    border-radius: 20px;
+
+    /* Margen y padding */
+    padding: 10px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 50px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color-oscuro);
+}
+
+header > a {
+    font-size: 2.5rem;
+    
+}
+
+.Foto-perfil{
+    display: flex;
+    justify-content: center;
+    align-items: start; 
+    margin-top: 100px;
+}
+
+#Foto1 {
+    width: 600px;
+    height: 600px; /* Forzamos que sea un cuadrado */
+    object-fit: cover; /* Recorta sin deformar */
+    border-radius: 100%;
+    position: relative;
+
+    margin-top: 250px;
+}
+
+h1 {
+    font-size: 6rem;
+
+    margin-top: 100px;
+
+    display: flex;
+    justify-content: center;
+}
+
+#CV {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto; 
+    margin-top: 50px; 
+    width: 250px;
+    height: 80px;
+
+
+    border-radius: 25px;
+    background-color: var(--color-oscuro);
+}
